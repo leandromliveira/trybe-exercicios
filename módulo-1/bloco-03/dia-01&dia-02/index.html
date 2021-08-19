@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Portifólio Leandro Oliveira</title>
+    <style>
+      #videos {
+        display: flex;
+      }
+      #segundo {
+          margin-left: 180px;
+        }
+      body {
+        background-color: #efd09e;
+        font-family: Caveat;
+      }  
+      #navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+      }
+      #navbarUl {
+        -moz-column-count: 5;
+        -webkit-column-count: 5;
+        column-count: 5;
+      }
+      #aboutMe {
+        background-color:#d2d8b3;
+      }
+      #skills {
+        background-color: ;
+      }
+      #anotherSkills {
+        background-color:  #d2d8b3;
+      }
+      #portfolio {}
+        
+      #like {
+        background-color:  #d2d8b3;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="navbar"> 
+      <nav>
+        <ul id="navbarUl">
+          <li style="list-style: none; " class="navbarIl"><a style="text-decoration: none;" href="#aboutMe">Quem sou eu</a></li>
+          <li style="list-style: none;"><a style="text-decoration: none;" href="#skills">Habilidades que mais me orgulho</a></li>
+          <li style="list-style: none;"><a style="text-decoration: none;" href="#anotherSkills">Outras Habilidades</a></li>
+          <li style="list-style: none;"><a style="text-decoration: none;" href="#portfolio">Portfólio de projetos no github</a></li>
+          <li style="list-style: none;"><a style="text-decoration: none;" href="#like">videos que eu gosto</a></li>
+        </ul>
+      </nav>
+    </section> 
+    <section id="aboutMe">
+      <h1>Leandro Magalhães Oliveira</h1>
+      <img id="foto" src="foto.png" width="200px">
+      <p>Estudante de desenvolvimento Web na <strong>Trybe</strong> em transição de profissão| Engenheiro Eletricista pela Unb</p>
+      <a href="https://www.linkedin.com/in/leandro-oliveira-86189930/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/leandromliveira" target="_blank">Github</a>
+    </section>  
+    <section id="skills">
+      <h1>Caracteristicas que mais me orgulho</h1>
+      <ul>
+        <li>obstinação</li>
+        <li>comunicativo</li>
+        <li>colaboração</li>
+        <li><strong>empatia</strong></li>
+      </ul>
+    </section>
+    <section id="anotherSkills">
+      <h1>Outras Habilidades</h1>
+      <ul>
+        <li><em>Git</em></li>
+        <li>Javascript</li>
+        <li><strong>Typescript</strong></li>
+        <li>SQL</li>
+        <li>React</li>
+      </ul>
+    </section>
+    <section id="portfolio">
+      <h1>Portfólio de projetos no github</h1>
+      <ol>
+      <li><em>Projeto 1</em><li>
+      <strong>Projeto 2</strong>
+      <li>Projeto 3</li>
+      <li>Projeto 4</li>
+      </ol>
+    </section>
+    <section id="like">
+      <h1>videos que eu gosto</h1>
+      <div id="videos">
+      <iframe src="https://www.youtube.com/embed/nKhPFcqhAdQ" allowfullscreen ng-show="showvideo"></iframe>
+      <iframe id="segundo" src="https://www.youtube.com/embed/52GkwgIubo4" allowfullscreen ng-show="showvideo"></iframe>
+      </div>    
+    </section>
+  </body>
+</html>

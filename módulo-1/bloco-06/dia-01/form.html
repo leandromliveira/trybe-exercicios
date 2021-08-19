@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <form method="get">
+  <fieldset>
+    <label for="name"> Nome Completo: 
+      <input id="name" type="text" maxlength="40" required placeholder="digite aqui o seu nome">
+    </label>
+    <br>
+    <label for="e-mail"> E-mail:
+      <input type="email" name="e-mail" maxlength="50" id="e-mail" required placeholder="digite aqui o seu e-mail">
+    </label>
+    <br>
+    <label for="CPF"> CPF:
+      <input type="text" maxlength="11" id="CPF" required placeholder="digite aqui o seu CPF somente números">
+    </label>
+  <br>
+  <label for="adress"> Endereço:
+    <input type="text" maxlength="200" id="adress" required placeholder="digite aqui seu endereço">
+  </label>
+  <br>
+  <label for="city"> Cidade:
+    <input type="text" maxlength="28" id="city" required placeholder="digite aqui sua cidade">
+  </label>
+  <br>
+  <label for="state"> Estado:
+    <select name="state" id="state" required>
+    </select>
+  </label>
+  <br>
+  <label for="house">
+    <input type="radio" name="home" id="house" required> casa
+  </label>
+  <label for="apartment">
+    <input type="radio" name="home" id="amethod="get"partment"> apartamento
+  </label>
+  </fieldset>
+<br>
+  <fieldset>
+    <label for="resume"> Resumo do Currículo
+      <br>
+      <textarea name="resume" id="resume" maxlength="1000" cols="30" rows="10" required></textarea>
+    </label>
+    <br>
+    <label for="office"> Cargo:
+      <input type="text" name="job" id="office" required maxlength="40" placeholder="digite aqui o seu ultimo trabalho">
+    </label>
+    <br>
+    <label for="jobDescrition"> Descrição do Cargo:
+      <input type="text" name="jobDescrition" id="jobDescrition" required maxlength="500" placeholder="detalhe mais sobre a sua função">
+    </label>
+    <br>
+    <label for="date"> Data de início
+      <input type="date" name="date" id="date" required>
+    </label>
+  </fieldset>
+
+  <button id="send-button" type="submit">Enviar</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
